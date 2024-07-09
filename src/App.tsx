@@ -114,10 +114,10 @@ function App() {
         <Heading as='h1' size='xl' textAlign='center' color='#44403e' mb='10'>
           Web制作実績リスト
         </Heading>
-        <Text color='#44403e' fontWeight='bold'>
+        <Text color='#44403e' fontWeight='bold' mb='1'>
           このアプリ（Web制作実績リスト）を制作した際の技術スタック
         </Text>
-        <Text color='#44403e' mb='6'>
+        <Text color='#44403e' mb='2'>
           React + TypeScript
           <br />
           開発環境:Vite
@@ -125,6 +125,9 @@ function App() {
           UIライブラリ:Chakra UI
           <br />
           データベース:Firebase
+        </Text>
+        <Text color='#44403e' mb='6'>
+          前職のWeb制作会社で携わった案件をいくつかピックアップして、ポートフォリオに掲載しています。現在は独学でReactを勉強中のため、実際のアウトプットとして自身のポートフォリオを作成しました。
         </Text>
         <InputArea
           projectTitle={projectTitle}

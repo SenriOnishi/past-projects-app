@@ -1,21 +1,4 @@
-import {
-  Button,
-  Center,
-  ChakraProvider,
-  Container,
-  Flex,
-  Heading,
-  Input,
-  Modal,
-  ModalBody,
-  ModalCloseButton,
-  ModalContent,
-  ModalHeader,
-  ModalOverlay,
-  Stack,
-  Text,
-  useDisclosure,
-} from '@chakra-ui/react';
+import { Button, ChakraProvider, Container, Flex, Heading, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, Stack, Text, useDisclosure } from '@chakra-ui/react';
 import theme from './theme/theme';
 import { useEffect, useState } from 'react';
 import { InputArea } from './components/InputArea';
